@@ -1,1 +1,30 @@
+# Folders
 _site/
+node_modules/
+tmp/
+.tmp/
+build/
+.vagrant/
+log/
+.log/
+$RECYCLE.BIN/
+
+# Extensions
+.log
+.logs
+.project
+.projects
+.settings
+.vagrant
+.DS_Store
+.cab
+.msi
+.msm
+.msp
+.exe
+.zip
+
+# Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
