@@ -144,7 +144,7 @@ gulp.task('script-vendor', function(){
 
 // Build the project and put it online
 gulp.task('build', function(cb) {
-	seq('clean-build', ['style-vendor', 'style', 'script-vendor', 'script', 'html', 'image', 'font'], 'jekyll', cb);
+	seq('clean-build', ['style-vendor', 'style', 'script-vendor', 'script', 'html', 'image', 'font'], ['clean-tmp', 'jekyll'], cb);
 });
 
 // Make all the magic
