@@ -13,8 +13,7 @@ sudo apt-get install nodejs -y
 sudo npm config set registry http://registry.npmjs.org/
 
 # Install Jekyll
-sudo apt-get -y install build-essential 
-sudo /opt/vagrant_ruby/bin/gem install jekyll rdiscount -y --no-ri --no-rdoc
+sudo apt-get update && sudo apt-get -y install build-essential git ruby1.9.3 && sudo gem install github-pages --no-ri --no-rdoc
 
 # Install Git
 sudo apt-get install -y git
